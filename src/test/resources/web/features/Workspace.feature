@@ -18,7 +18,7 @@ Feature: CP05- I client want to create a new workspace
     When The User on log in div
     When The User set the name of workspace "Workspace"
     When The User on log in button Crear
-    
+
 
   @Workspace @Successfull @Smoke
   Scenario: 2-The user is in page tracker
