@@ -35,7 +35,7 @@ public class LoginSteps extends PageSteps {
         
     }
 
-    @When("The user  set the password {string}")
+    @And("The user  set the password {string}")
     public void theClientSetThePassword(String password) {
         LoginService.setPassword(password);
         
@@ -61,7 +61,7 @@ public class LoginSteps extends PageSteps {
     }
 
 
-    @When("The user click on log in button")
+    @And("The user click on log in button")
     public void theUserClickOnLogInButton() {
         LoginService.clickLoginEnter();
 

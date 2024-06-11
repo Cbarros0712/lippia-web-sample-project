@@ -31,4 +31,7 @@ public class LoginConstants {
     public static final String SELECT_OUT ="xpath://*[@id=\"topbar-menu\"]/div/div[2]/div/app-user-settings/div/div/div[1]/a/span"; // "xpath://div[@class='cl-dropdown-menu cl-dropdown-menu-right cl-dropdown-menu-user-profile ng-star-inserted']";
 
     public static final String CLICK_LOGOUT = "xpath://*[@id=\"topbar-menu\"]/div/div[1]/div[2]/div/img";
+
+
+
 }
